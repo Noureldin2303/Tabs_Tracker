@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
+  min-width: 400px;
+}
+
+#input-el {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#test-el button {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #da0606;
+  padding: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#input-el:focus {
+  outline: none;
+  border-color: #aaa;
+}
+
+#input-el::placeholder {
+  color: #aaa;
+}
+
+#input-btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background-color: #5eb14e;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#tab-btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background-color: #3a43c4;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#delete-btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  color: #ff130b;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+ul {
+  padding: 5px;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 2px;
+}
+
+a {
+  text-decoration: underline;
+  color: #28992e;
+}
